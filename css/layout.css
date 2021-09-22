@@ -8,3 +8,45 @@
 body {
     font-family: 'Whitney','Helvetica Neue','Helvetica','Arial',sans-serif;
 }
+
+.container_center {
+    width: 90%;
+    margin: 0 auto;
+    /* debug */
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* intestazione pagina */
+header {
+    height: 500px;
+    /* debug */
+    background-color: brown;
+}
+
+#mainnav {
+    height: 100px;
+    /* debug */
+    background-color: cornflowerblue;
+}
+
+/* contenuto pagina */
+.content {
+    height: 500px;
+}
+
+.backgray {
+    background-color: gray;
+}
+
+/* footer */
+footer {
+    height: 500px;
+    background-color: #23272a;
+}
