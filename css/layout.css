@@ -9,6 +9,11 @@ body {
     font-family: 'Whitney','Helvetica Neue','Helvetica','Arial',sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .container_center {
     width: 80%;
     margin: 0 auto;
@@ -29,6 +34,7 @@ header {
     background-size: cover;
 }
 
+/* menu navigazione */
 #mainnav {
     height: 75px;
     padding: 10px 0;
@@ -64,20 +70,35 @@ header {
     font-weight: bold;
 }
 
-#mainnav li a {
-    text-decoration: none;
-    color: white;
-}
-
-#access {
+.whitebutton {
     color: black;
     background-color: white;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     font-size: 15px;
     text-align: right;
-    text-decoration: none;
     font-weight: bold;
+    margin: 20px;
+}
+
+/* jumbotron */
+#jumbotron {
+    padding: 100px 200px;
+    text-align: center;
+    color: white;
+}
+
+#jumbotron h1{
+    font-size: 60px;
+    margin: 50px;
+}
+
+#jumbotron p{
+    font-size: 30px;
+}
+
+#jumbotron a {
+    font-size: 20px;
 }
 
 /* contenuto pagina */
