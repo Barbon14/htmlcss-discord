@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css”>
+    <script src="https://kit.fontawesome.com/17ed98b645.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/layout.css">
     <title>Discord replica</title>
 </head>
@@ -82,6 +82,8 @@
                     più
                     spesso.
                 </p>
+
+                <!-- link a bottone -->
                 <a class="button" href="">
                     <i class="fas fa-long-arrow-alt-down"></i>Scarica per Mac
                 </a>
@@ -95,9 +97,11 @@
     <!-- contenuto pagina -->
     <main>
 
-        <!-- sezioni -->
+        <!-- sezioni contenuto -->
         <section class="content">
             <div class="container_center clearfix">
+
+                <!-- divido in due colonne il layout, una per l'immagine e una per il testo -->
                 <div class="colonna_img">
                     <img src="img/item1.svg" alt="">
                 </div>
@@ -147,6 +151,7 @@
             </div>
         </section>
 
+        <!-- ultima section di contenuto -->
         <section id="last" class="content backgray">
             <div class="container_center">
                 <div class="title">
@@ -179,6 +184,29 @@
                     <h2>
                         Il tuo posto per parlare
                     </h2>
+
+                    <!-- selettore lingua -->
+                    <select name="lenguage" id="lenguage_select">
+                        <option id="italian" value="Italiano">
+                            Italiano
+                        </option>
+                    </select>
+                    
+                    <!-- collegamenti social -->
+                    <div class="social">
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- collegamnti prodotto -->
@@ -360,7 +388,7 @@
                 
                 <div class="dx">
                 
-                    <!-- accesso utente -->
+                    <!-- registrazione utente -->
                     <a class="button backviolet" href="#">
                         Registrati
                     </a>
