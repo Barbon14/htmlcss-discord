@@ -14,7 +14,6 @@ body {
     margin: 0 auto;
     /* debug */
     height: 100%;
-    background-color: greenyellow;
 }
 
 .clearfix::after {
@@ -25,14 +24,60 @@ body {
 
 /* intestazione pagina */
 header {
-    height: 500px;
-    background-color: #3161e0;
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 #mainnav {
-    height: 100px;
-    /* debug */
-    background-color: cornflowerblue;
+    height: 75px;
+    padding: 10px 0;
+}
+
+.header_sx {
+    float: left;
+    width: 10%;
+}
+
+.header_dx {
+    text-align: right;
+    float: left;
+    width: 10%;
+}
+
+.header_center {
+    float: left;
+    width: 80%;
+}
+
+#logo {
+    width: 100%;
+}
+
+#mainnav ul {
+    text-align: center;
+}
+
+#mainnav li {
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#mainnav li a {
+    text-decoration: none;
+    color: white;
+}
+
+#access {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* contenuto pagina */
@@ -50,11 +95,11 @@ footer {
     background-color: #23272a;
 }
 
-footer .high {
+footer .top {
     height: 400px;
 }
 
-footer .low {
+footer .bot {
     height: 100px;
     /* debug */
     background-color: burlywood;
