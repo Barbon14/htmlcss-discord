@@ -106,6 +106,9 @@ header {
 }
 
 /* contenuto pagina */
+.content {
+    padding: 50px 0;
+}
 
 .content img{
     width: 100%;
@@ -118,13 +121,15 @@ header {
 .colonna_img {
     float: left;
     width: 60%;
-    padding: 5%;
 }
 
 .colonna_contenuto {
     float: left;
     width: 40%;
-    padding: 5%;
+}
+
+#last {
+    text-align: center;
 }
 
 /* footer */
